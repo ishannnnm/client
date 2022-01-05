@@ -11,20 +11,10 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
               <div className="colz-icon">
-
-            <a href="#">
-              <i className="fa fa-facebook-square"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-google-plus-square"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="#">
+            <a href="www.youtube.com">
               <i className="fa fa-youtube-square"></i>
             </a>
-            <a href="#">
+            <a href="https://twitter.com/IshanMisra5">
               <i className="fa fa-twitter"></i>
             </a>
               </div>
