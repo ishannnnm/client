@@ -11,13 +11,13 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import "./ContactMe.css";
 
 export default function ContactMe(props) {
- // let fadeInScreenHandler = (screen) => {
-   // if (screen.fadeInScreen !== props.id) return;
-   // Animations.animations.fadeInScreen(props.id);
-  //};
+  //let fadeInScreenHandler = (screen) => {
+  //  if (screen.fadeInScreen !== props.id) return;
+  //  Animations.animations.fadeInScreen(props.id);
+ // };
 
   //const fadeInSubscription =
-    //ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+   // ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -54,9 +54,9 @@ export default function ContactMe(props) {
         toast.success(res.data.msg);
         setBool(false);
 
-        setName("");
-        setEmail("");
-        setMessage("");
+        //setName("");
+        //setEmail("");
+       // setMessage("");
       }
     } catch (error) {
       console.log(error);
@@ -74,6 +74,7 @@ export default function ContactMe(props) {
           <a href="https://web.facebook.com/?_rdc=1&_rdr">
             <i className="fa fa-facebook-square" />
           </a>
+
           <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
             <i className="fa fa-youtube-square" />
           </a>
@@ -84,7 +85,7 @@ export default function ContactMe(props) {
         <div className="back-form">
           <div className="img-back">
             <h4>Send Your Email Here!</h4>
-            <img src={imgBack} alt="image not found" />
+            <img src={imgBack} alt=" not found" />
           </div>
           <form onSubmit={submitForm}>
             <p>{banner}</p>
@@ -103,7 +104,7 @@ export default function ContactMe(props) {
                 <i className="fa fa-paper-plane" />
                 {bool ? (
                   <b className="load">
-                    <img src={load1} alt="image not responding" />
+                    <img src={load1} alt=" not responding" ></img>
                   </b>
                 ) : (
                   ""

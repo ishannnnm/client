@@ -5,11 +5,11 @@ import ContactMe from "../PortfolioContainer/ContactMe/ContactMe";
 import "./commonUtils.css"
 export const TOTAL_SCREENS = [
   {
-    screen_name: "Home",
+    screen_name: "Home ",
     component: Home,
   },
   {
-    screen_name: "AboutMe",
+    screen_name: "  AboutMe",
     component: AboutMe,
   },
   {
@@ -17,7 +17,7 @@ export const TOTAL_SCREENS = [
     component: Resume,
   },
   {
-    screen_name: "ContactMe",
+    screen_name: "   ContactMe",
     component: ContactMe,
   },
 ];

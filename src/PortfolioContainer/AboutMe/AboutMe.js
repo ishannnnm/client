@@ -1,14 +1,14 @@
 import React from 'react'
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
-//import ScrollService from '../../utilities/ScrollService'
+import ScrollService from '../../utilities/ScrollService'
 //import Animations from '../../utilities/Animations'
 import "./AboutMe.css";
 
 export default function AboutMe(props){
 
-  //  let fadeInScreenHandler =(screen)=>{
-  //      if(screen.fadeInScreen !== props.id) return ;
-  //      Animations.animations.fadeInScreen(props.id);
+  // let fadeInScreenHandler =(screen)=>{
+   //    if(screen.fadeInScreen !== props.id) return ;
+   //    Animations.animations.fadeInScreen(props.id);
    // };
 
     //const fadeInSubscription = 
@@ -55,7 +55,8 @@ export default function AboutMe(props){
                             {renderHighlights()}
                         </div>
                         <div className='about-me-options'>
-                        <button className="btn primary-btn">
+                        <button className="btn primary-btn"
+                        onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
                   {""}
                   Contact Me{" "}
               </button>
