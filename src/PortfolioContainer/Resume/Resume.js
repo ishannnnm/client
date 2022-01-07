@@ -94,12 +94,7 @@ export default function Resume(props) {
         toDate={"2020"}
       />
 
-      <ResumeHeading
-        heading={"National Youth Service Corps"}
-        subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
-        fromDate={"2019"}
-        toDate={"2020"}
-      />
+    
       <ResumeHeading
         heading={"High School "}
         subHeading={"Bal Bharti Public School"}
